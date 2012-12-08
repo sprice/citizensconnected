@@ -21,7 +21,6 @@ projects[citcon][type] = "module"
 projects[citcon][download][type] = "git"
 projects[citcon][download][url] = "http://git.drupal.org/sandbox/sebsebseb123/1632620.git"
 projects[citcon][download][branch] = "7.x-1.x-dev"
-projects[citcon][download][revision] = "022032757fe850eddf4a3f72efa357de763231f5"
 
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.2
@@ -51,6 +50,9 @@ projects[i18n][subdir] = contrib
 projects[i18n][version] = 1.7
 ; Patch helps with installin from drush.
 projects[i18n][patch][] = "http://drupal.org/files/static_reset.patch"
+
+projects[link][subdir] = contrib
+projects[link][version] = 1.0
 
 projects[panels][subdir] = contrib
 projects[panels][version] = 3.3

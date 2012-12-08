@@ -19,6 +19,7 @@ function citcon_starter_install() {
     // Contrib modules.
     'admin_menu',
     'block',
+    'citcon',
     'ctools',
     'date',
     'date_api',
@@ -43,8 +44,4 @@ function citcon_starter_install() {
     'translation',
     'variable',
   ));
-
-  // TODO: Add citcon back into the array above once the dependancies are
-  // figured out.
-  module_enable(array('citcon'));
 }
