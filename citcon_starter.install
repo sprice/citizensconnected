@@ -51,4 +51,20 @@ function citcon_starter_install() {
     'translation',
     'variable',
   ));
+
+  $mods = array(
+    'citcon_admin',
+    'citcon_cleanup',
+    'citcon_csv',
+    'citcon_dev',
+    'citcon_email',
+    'citcon_graph',
+    'citcon_local',
+  );
+
+  foreach ($mods as $mod) {
+    if (!module_enable(array($mod))) {
+      $val =1;
+    }
+  }
 }
