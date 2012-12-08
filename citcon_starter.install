@@ -1,0 +1,50 @@
+<?php
+/**
+ * @file
+ * Install, update and uninstall functions for the CitCon Starter install
+ * profile.
+ */
+
+/**
+ * Implements hook_install().
+ *
+ * Performs actions to set up the site for this profile.
+ *
+ * @see system_install()
+ */
+function citcon_starter_install() {
+
+  // Start with enabling modules.
+  module_enable(array(
+    // Contrib modules.
+    'admin_menu',
+    'block',
+    'ctools',
+    'date',
+    'date_api',
+    'date_popup',
+    'dblog',
+    'email',
+    'entity',
+    'features',
+    'file',
+    'i18n',
+    'image',
+    'list',
+    'locale',
+    'menu',
+    'number',
+    'options',
+    'panels',
+    'path',
+    'pathauto',
+    'strongarm',
+    'token',
+    'translation',
+    'variable',
+  ));
+
+  // TODO: Add citcon back into the array above once the dependancies are
+  // figured out.
+  module_enable(array('citcon'));
+}
