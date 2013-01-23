@@ -19,13 +19,13 @@ projects[devel][subdir] = contrib
 projects[devel][version] = 1.3
 
 projects[diff][subdir] = contrib
-projects[diff][version] = 2.0
+projects[diff][version] = 3.2
 
 projects[email][subdir] = contrib
 projects[email][version] = 1.2
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.0-rc3
+projects[entity][version] = 1.0
 
 projects[features][subdir] = contrib
 projects[features][version] = 1.0
@@ -34,9 +34,7 @@ projects[globalredirect][subdir] = contrib
 projects[globalredirect][version] = 1.5
 
 projects[i18n][subdir] = contrib
-projects[i18n][version] = 1.7
-; Patch helps with installing from drush.
-projects[i18n][patch][] = http://drupal.org/files/static_reset.patch
+projects[i18n][version] = 1.8
 
 projects[link][subdir] = contrib
 projects[link][version] = 1.0
@@ -54,7 +52,7 @@ projects[token][subdir] = contrib
 projects[token][version] = 1.4
 
 projects[variable][subdir] = contrib
-projects[variable][version] = 2.1
+projects[variable][version] = 2.2
 
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2
