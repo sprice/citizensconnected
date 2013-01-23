@@ -41,4 +41,3 @@ dependencies[] = citcon_csv
 dependencies[] = citcon_dev
 dependencies[] = citcon_email
 dependencies[] = citcon_graph
-dependencies[] = citcon_local
