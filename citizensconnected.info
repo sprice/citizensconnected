@@ -1,0 +1,44 @@
+name = Citizens Connected
+project = citizensconnected
+description = Citizens Connected Drupal distribution
+core = 7.x
+
+; Core
+dependencies[] = block
+dependencies[] = dblog
+dependencies[] = file
+dependencies[] = image
+dependencies[] = locale
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = translation
+
+; Contrib
+dependencies[] = admin_menu
+dependencies[] = ctools
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = date_popup
+dependencies[] = diff
+dependencies[] = email
+dependencies[] = entity
+dependencies[] = features
+dependencies[] = i18n
+dependencies[] = link
+dependencies[] = panels
+dependencies[] = pathauto
+dependencies[] = strongarm
+dependencies[] = token
+dependencies[] = variable
+
+; Citizens Connected supporting modules
+dependencies[] = citcon
+dependencies[] = citcon_admin
+dependencies[] = citcon_cleanup
+dependencies[] = citcon_csv
+dependencies[] = citcon_dev
+dependencies[] = citcon_email
+dependencies[] = citcon_graph
+dependencies[] = citcon_local
