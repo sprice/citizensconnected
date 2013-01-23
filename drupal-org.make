@@ -1,26 +1,13 @@
 api = 2
 core = 7.x
 
-; ; TEMPLATE
-; projects[][subdir] = contrib
-; projects[][version] =
-; ; This is the issue title: http://drupal.org/node/xxxxxxx#comment-xxxxxxx
-; projects[][patch][] =
-
-; MODULES
-; Ascending Alphabetical order from the module name
+; Contrib modules
 
 projects[admin_menu][subdir] = contrib
 projects[admin_menu][version] = 3.0-rc3
 
 projects[backup_migrate][subdir] = contrib
 projects[backup_migrate][version] = 2.4
-
-projects[citcon][subdir] = contrib
-projects[citcon][type] = "module"
-projects[citcon][download][type] = "git"
-projects[citcon][download][url] = "http://git.drupal.org/sandbox/sebsebseb123/1632620.git"
-projects[citcon][download][branch] = "7.x-1.x-dev"
 
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.2
@@ -48,8 +35,8 @@ projects[globalredirect][version] = 1.5
 
 projects[i18n][subdir] = contrib
 projects[i18n][version] = 1.7
-; Patch helps with installin from drush.
-projects[i18n][patch][] = "http://drupal.org/files/static_reset.patch"
+; Patch helps with installing from drush.
+projects[i18n][patch][] = http://drupal.org/files/static_reset.patch
 
 projects[link][subdir] = contrib
 projects[link][version] = 1.0
@@ -72,10 +59,17 @@ projects[variable][version] = 2.1
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.2
 
-; THEMES
+; Citizens Connected supporting modules
+projects[citcon][subdir] = contrib
+projects[citcon][type] = module
+projects[citcon][download][type] = git
+projects[citcon][download][url] = http://git.drupal.org/sandbox/sebsebseb123/1632620.git
+projects[citcon][download][branch] = 7.x-1.x-dev
 
-; LIBRARIES
+; Themes
 
-libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
-libraries[ckeditor][directory_name] = "ckeditor"
+; Libraries
+
+libraries[ckeditor][download][type] = get
+libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip
+libraries[ckeditor][directory_name] = ckeditor
