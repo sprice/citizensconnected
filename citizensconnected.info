@@ -27,7 +27,6 @@ dependencies[] = entity
 dependencies[] = features
 dependencies[] = i18n
 dependencies[] = link
-dependencies[] = panels
 dependencies[] = pathauto
 dependencies[] = strongarm
 dependencies[] = token

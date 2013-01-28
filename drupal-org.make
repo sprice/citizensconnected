@@ -39,9 +39,6 @@ projects[i18n][version] = 1.8
 projects[link][subdir] = contrib
 projects[link][version] = 1.0
 
-projects[panels][subdir] = contrib
-projects[panels][version] = 3.3
-
 projects[pathauto][subdir] = contrib
 projects[pathauto][version] = 1.2
 
@@ -53,9 +50,6 @@ projects[token][version] = 1.4
 
 projects[variable][subdir] = contrib
 projects[variable][version] = 2.2
-
-projects[wysiwyg][subdir] = contrib
-projects[wysiwyg][version] = 2.2
 
 ; Citizens Connected supporting modules
 projects[citcon][subdir] = contrib
