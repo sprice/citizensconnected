@@ -55,8 +55,8 @@ projects[variable][version] = 2.2
 projects[citcon][subdir] = contrib
 projects[citcon][type] = module
 projects[citcon][download][type] = git
-projects[citcon][download][url] = http://git.drupal.org/sandbox/sebsebseb123/1632620.git
-projects[citcon][download][branch] = 7.x-1.x-dev
+projects[citcon][download][url] = http://git.drupal.org/project/citcon.git
+projects[citcon][download][branch] = 7.x-1.x
 
 ; Themes
 
