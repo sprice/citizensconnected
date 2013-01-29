@@ -21,14 +21,11 @@ dependencies[] = ctools
 dependencies[] = date
 dependencies[] = date_api
 dependencies[] = date_popup
-dependencies[] = diff
 dependencies[] = email
 dependencies[] = entity
-dependencies[] = features
 dependencies[] = i18n
 dependencies[] = link
 dependencies[] = pathauto
-dependencies[] = strongarm
 dependencies[] = token
 dependencies[] = variable
 
