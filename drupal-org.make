@@ -6,9 +6,6 @@ core = 7.x
 projects[admin_menu][subdir] = contrib
 projects[admin_menu][version] = 3.0-rc3
 
-projects[backup_migrate][subdir] = contrib
-projects[backup_migrate][version] = 2.4
-
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.2
 
@@ -23,9 +20,6 @@ projects[email][version] = 1.2
 
 projects[entity][subdir] = contrib
 projects[entity][version] = 1.0
-
-projects[globalredirect][subdir] = contrib
-projects[globalredirect][version] = 1.5
 
 projects[i18n][subdir] = contrib
 projects[i18n][version] = 1.8
